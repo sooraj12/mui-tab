@@ -1,0 +1,27 @@
+.TabsRoot {
+  overflow: hidden;
+  min-height: 48px;
+  display: flex;
+}
+
+.Scroller {
+  position: relative;
+  display: inline-block;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.FlexContainer {
+  display: flex;
+}
+
+.container {
+  width: 430px;
+}
+
+.Tab {
+  min-width: max-content;
+  padding: 0px 10px;
+}
